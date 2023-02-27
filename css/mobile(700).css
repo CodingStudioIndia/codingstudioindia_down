@@ -1,0 +1,123 @@
+@media only screen and (max-width:700px) {
+    body {
+        text-align: center;
+    }
+    .header-logo {
+        padding: 0px;
+        position: relative;
+        top: 50px;
+        float: left;
+    }
+    .home-content h1 {
+        font-size: 3.2rem;
+    }
+    .back {
+        position: relative;
+        bottom: 50px;
+        right: 180px;
+        color: white;
+    }
+    .home-content__button .btn {
+        padding: 0 7rem 0 4rem;
+    }
+    .hero-image {
+        height: 500px;
+        width: 400px;
+    }
+    .home-social {
+        float: left;
+        position: relative;
+        left: 80px;
+        bottom: 0px;
+        margin: 10;
+        padding: 10px;
+        color: white;
+    }
+    .w3-panel {
+        width: 100px;
+    }
+    .w3-card {
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+    .w3-card-2 {
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        margin: 40px;
+        position: relative;
+        bottom: 0px;
+        right: 15px;
+    }
+    .w3-card-4 {
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        float: right;
+        right: 25px;
+        top: -15px;
+    }
+    .w3-card-5 {
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        float: right;
+        right: 40px;
+        top: 50px;
+    }
+    .w3-card-6 {
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        top: 20px;
+        float: right;
+        right: 40px;
+        top: 50px;
+    }
+    .w3-card-7 {
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        float: right;
+        right: 40px;
+        top: 50px;
+    }
+    #card-6 {
+        position: relative;
+        bottom: 260px;
+    }
+    #card-7 {
+        position: relative;
+        TOP: 220px;
+    }
+    #card-head {
+        position: relative;
+        top: 250px;
+    }
+    #card-head-1 {
+        position: relative;
+        top: 220px;
+    }
+    #card-9 {
+        position: relative;
+        bottom: 560px;
+    }
+    #card-10 {
+        position: relative;
+        bottom: 1510px;
+    }
+    nav {
+        position: relative;
+        top: 500px;
+    }
+}

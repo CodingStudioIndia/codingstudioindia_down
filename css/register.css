@@ -1,0 +1,281 @@
+body {
+    font-family: helvetica;
+    letter-spacing: 1px;
+}
+
+.logo {
+    width: 150px;
+    height: 90px;
+}
+
+.header-logo {
+    padding: 0px;
+    position: relative;
+    top: 50px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+    left: 100px;
+    display: inline;
+}
+
+.home-social {
+    float: right;
+    position: relative;
+    right: 50px;
+    bottom: 80px;
+    margin: 10;
+    padding: 10px;
+    color: white;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.bgimg {
+    width: 0px;
+}
+
+.hero-image {
+    background-image: url("../images/title-card.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div-2 {
+    border: 2px solid rgb(8, 6, 6);
+    width: 300px;
+    height: 270px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.register {
+    background-color: #0086a9;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.div-3 {
+    border: 2px solid rgb(8, 6, 6);
+    width: 300px;
+    height: 270px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+    text-align: center;
+}
+
+.div-4 {
+    border: 2px solid rgb(8, 6, 6);
+    width: 300px;
+    height: 270px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    right: 50px;
+    bottom: 530px;
+    float: right;
+    text-align: center;
+}
+
+.w3-container {
+    display: inline;
+}
+
+.w3-panel {
+    width: 200px;
+}
+
+.w3-card {
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.w3-card-2 {
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    margin: 40px;
+    position: relative;
+}
+
+.w3-card-4 {
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 40px;
+}
+
+.w3-card-5 {
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 40px;
+}
+
+.w3-card-6 {
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 40px;
+}
+
+.w3-card-7 {
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 40px;
+}
+
+#card-6 {
+    position: relative;
+}
+
+#card-7 {
+    position: relative;
+}
+
+#card-head {
+    position: relative;
+}
+
+#card-head-1 {
+    position: relative;
+}
+
+#card-9 {
+    position: relative;
+}
+
+#card-10 {
+    position: relative;
+}
+
+.workshop {
+    background-color: skyblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+#feedback-btn {
+    width: 100px;
+}
+
+#register {
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+}
+
+.back {
+    color: White;
+}
+
+
+/*---------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 20;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.video-1 {
+    width: 100px;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item4 {
+    grid-area: right;
+}
+
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.card {
+    text-align: center;
+}

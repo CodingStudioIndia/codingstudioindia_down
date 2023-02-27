@@ -1,0 +1,31 @@
+body {
+    letter-spacing: 1px;
+    font-family: helvetica;
+}
+
+.hero-image {
+    background-image: url("../images/feedback.jpg");
+    background-color: #cccccc;
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#btn-1 {
+    background-color: blue;
+    padding: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+#btn-2 {
+    background-color: blue;
+    padding: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    float: right;
+}

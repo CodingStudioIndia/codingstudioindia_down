@@ -1,0 +1,33 @@
+body {
+    letter-spacing: 1px;
+    font-family: helvetica;
+}
+
+.hero-image {
+    background-image: url("../images/iot.png");
+    background-color: #cccccc;
+    height: 1860px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#btn-1 {
+    background-color: skyblue;
+    padding: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    color: black;
+}
+
+#btn-2 {
+    background-color: skyblue;
+    padding: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    color: black;
+}
